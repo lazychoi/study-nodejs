@@ -1,0 +1,22 @@
+{
+  "name": "study-nodejs",
+  "version": "1.0.0",
+  "description": "공부하며 코드 정리",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazychoi/study-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazychoi/study-nodejs/issues"
+  },
+  "homepage": "https://github.com/lazychoi/study-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
