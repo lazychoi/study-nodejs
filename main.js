@@ -7,6 +7,6 @@ app.use(function(req, res){
     res.end("Hello, express");
 })
 app.set('port', process.env.PORT || 3000);
-http.createServer(app).listen(app.get('port'), function(req, res){
+http.createServer(app).listen(app.get('port'), function(){
     console.log('Express Server is running.');
 })

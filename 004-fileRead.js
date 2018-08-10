@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var server = http.createServer(function(req, res){
-    var filename = 'google.png';
+    var filename = './public/google.png';
     fs.readFile(filename, function(err, data){
         res.writeHead(200, {"Content-Type": "image/png"});
         res.write(data);
